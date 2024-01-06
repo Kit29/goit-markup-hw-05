@@ -622,6 +622,10 @@ margin-bottom: 16px;
     border-radius: 4px;
     background: var(--DAIRY, #FCFCFC);
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+    padding-top: 72px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
 }
 .modal-btn {
 position: absolute;
@@ -893,6 +897,8 @@ letter-spacing: 0.48px;
 user-select: none;
 }
 .form-btn {
+    min-width: 169px;
+    min-height: 56px;
     display: inline-flex;
 padding: 16px 32px;
 align-items: flex-start;
@@ -905,6 +911,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     opacity: 0;
     transform scale(1);
     transition: opacity 300ms cubic-bezier(0.8, 0, 0, 1,8) 150ms, transform 300ms cubic-bezier(0.8, 0, 0, 1,8) 150ms;
+    margin-right: 8px;
 }
 .form-argeenment-checkbox {
     display: inline-flex;
@@ -932,4 +939,9 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 .form-agreement-link {
     color: #4D5AE5;
     text-decoration-line: underline;
+}
+.backdrop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
