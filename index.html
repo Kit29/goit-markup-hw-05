@@ -424,12 +424,21 @@
                         </svg>
                     </div>
             </div>
-            <label>
-                <p class="peszka">Comment</p>
-                <textarea class="yyyy" placeholder="Text input"></textarea>
+            <div class="form-wrapper">
+                <label class="form-label" for="user_message">Comment</label>
+                <textarea class="form-message" name="user_message" id="user_message" rows="4" placeholder="Text input">
+                </textarea>
+            </div>
+            <label class="form-agreement">
+                <input class="checkbox visually-hidden" type="checkbox" name="user_agreenment" id="" value="false"/>
+                <span class="form-agreement-checkbox">
+                    <svg class="form-agreement-icon" width="10" height="8">
+                        <use href="./images/icons.svg#icon-Vector"></use>
+                    </svg>
+                </span>
+                I accept the terms and conditions of the <a class="form-agreement-link">Privacy Policy</a>
             </label>
-                <input type="checkbox"/>I accept the terms and conditions of the <span class="color"><a href="">Privacy Policy</a></span>
-                <button type="submit" class="send">Send</button>
+                <button class="form-btn" type="submit">Send</button>
         </form>
         
     </div>
