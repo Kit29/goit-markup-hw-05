@@ -989,10 +989,13 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     justify-content: center;
     align-items: center;
 }
-.subscribe-from {
+.subscribe-form {
     display: flex;
     gap: 24px;
 }
 .subscribe-input {
 
+}
+.subscribe-form-icon {
+    margin-left: 16px; 
 }
