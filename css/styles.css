@@ -919,6 +919,12 @@ left: 24px;
     width: 360px;
     height: 120px;
     flex-shrink: 0;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4); 
+    background-color: transparent; 
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-massage::placeholder {
     color: currentColor;
@@ -1000,4 +1006,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .subscribe-form-icon {
     margin-left: 16px; 
+}
+.form-wrapper-container {
+    margin-bottom: 24px;
 }
