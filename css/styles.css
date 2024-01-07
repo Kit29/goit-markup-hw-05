@@ -1016,7 +1016,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     letter-spacing: 0.04em; 
     color: #8e8f99;
 }
-.spaniol {
+.wrapper-span {
     display: inline-flex; 
     justify-content: center; 
     align-items: center; 
@@ -1030,7 +1030,4 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .form-agreement-icon {
 
-}
-.wrapper-singly {
-    
 }
