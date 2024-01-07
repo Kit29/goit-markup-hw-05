@@ -654,10 +654,12 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 .modal-btn:hover {
     fill: #ffffff;
     border: none; 
+    background-color: #404bbf;
 }
 .modal-btn:focus{
     fill: #ffffff;
     border: none;
+    background-color: #404bbf;
 }
 .modal-btn-icon {
 stroke: currentColor;
