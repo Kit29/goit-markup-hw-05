@@ -1044,10 +1044,15 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #404bbf; 
     border: none; 
     fill: transparent;
+    border: 1px solid rgba(46, 47, 66, 0.4); 
 }
 .wrapper-link {
     color: #4d5ae5;
 }
 .form-wrapper {
     margin-bottom: 16px;
+}
+.form-field:checked,
+.wrapper-span:checked {  
+    fill: #F4F4FD; 
 }
