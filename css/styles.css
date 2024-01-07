@@ -1016,7 +1016,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-left: 16px; 
 }
 .form-wrapper-container {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 .wrapper-label {
     font-size: 12px; 
@@ -1035,6 +1035,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 2px; 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex; 
+    fill: transparent; 
+    border: 1px solid rgba(46, 47, 66, 0.4); 
 }
 .form-agreement-icon {
 
