@@ -1054,8 +1054,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .form-wrapper {
     margin-bottom: 16px;
 }
-.form-field:checked,
-.wrapper-span:checked {  
+.checkbox:checked + .wrapper-label > .wrapper-span {
     fill: #F4F4FD; 
     border: none; 
 }
